@@ -1,12 +1,12 @@
 #
-# This script downloads the reference HIV-1 (strain NL4-3) genome to the refs folder.
+# This script downloads the fastq files to the reads folder.
 #
 
 # Stop on any error and print all commands.
 set -uex
 
 # Fetch sequencing reads from SRA.
-# cat ids.txt | parallel "fastq-dump --split-files {}"
+cat ids.txt | parallel "fastq-dump --split-files {}"
 
 # Create reads directory if it does not already exist.
 mkdir -p reads
