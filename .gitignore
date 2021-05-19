@@ -1,3 +1,11 @@
+# text editor config
 .idea
-refs
+
+# raw & processed reference/fastq sequences
+data
 reads
+
+# shapemapper files
+shapemapper_out
+shapemapper_temp
+HIV_shapemapper_log.txt
