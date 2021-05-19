@@ -6,7 +6,7 @@
 set -uex
 
 # Create refs directory if it does not already exist.
-mkdir -p refs
+mkdir -p data
 
 # Fetch fasta file of HIV-1 genome.
-efetch -db nucleotide -id M19921.2 -format fasta -seq_start 455 -seq_stop 9627 > refs/HIV.fa
+efetch -db nucleotide -id M19921.2 -format fasta -seq_start 455 -seq_stop 9627 > data/HIV.fa
