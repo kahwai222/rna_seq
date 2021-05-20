@@ -2,8 +2,8 @@
 .idea
 
 # raw & processed reference/fastq sequences
+raw
 data
-reads
 
 # shapemapper files
 shapemapper_out
